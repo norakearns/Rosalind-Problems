@@ -1,0 +1,8 @@
+S = 'GATGGAACTTGACTACGTAAATT'
+RNA = ""
+for i in S:
+    if i == "T":
+        RNA += "U"
+    else:
+        RNA += i
+print(RNA)
