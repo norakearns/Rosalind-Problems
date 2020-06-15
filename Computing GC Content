@@ -1,0 +1,8 @@
+from Bio import SeqIO
+from Bio import Seq
+from Bio.SeqUtils import GC
+for record in SeqIO.parse("C:\\Users\\Nora Kearns\\Downloads\\rosalind_gc (4).txt",'fasta'):
+    sequence = record.seq
+    seq_name = record.id
+    print(seq_name)
+    print(GC(sequence))
