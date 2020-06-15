@@ -1,0 +1,7 @@
+k=29
+m=24
+n=29
+z=k+m+n
+
+dominant_allele = (4*k*(k-1)+8*k*m+8*k*n+4*m*n+3*m*(m-1))/(4*z*(z-1))
+print(dominant_allele)
